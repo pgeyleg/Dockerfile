@@ -1,4 +1,2 @@
 require 'configuration'
-module Dockerfile
-
-end
+module Dockerfile; end
