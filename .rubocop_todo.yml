@@ -11,13 +11,7 @@
 # Configuration parameters: EnforcedStyle, SupportedStyles.
 # SupportedStyles: when_needed, always, never
 Style/FrozenStringLiteralComment:
-  Exclude:
-    - 'Gemfile'
-    - 'Rakefile'
-    - 'dockerfile.gemspec'
-    - 'lib/dockerfile/version.rb'
-    - 'spec/spec_helper.rb'
-    - 'spec/lib/dockerfile/version_spec.rb'
+  Enabled: false
 
 # Offense count: 1
 # Cop supports --auto-correct.
