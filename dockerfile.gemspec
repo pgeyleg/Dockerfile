@@ -9,9 +9,11 @@ Gem::Specification.new do |spec|
   spec.description = 'Ruby library to generate Dockerfile dynamically'
   spec.authors     = ['Pema Geyleg']
   spec.email       = 'pema.geyleg@gmail.com'
-  spec.files       = ['lib/dockerfile.rb']
   spec.homepage    = 'https://github.com/pgeyleg/dockerfile'
   spec.license     = 'MIT'
+
+  spec.files         = `git ls-files`.split("\n")
+  spec.require_paths = ['lib']
 
   spec.add_development_dependency 'rake'
   spec.add_development_dependency 'pry'
