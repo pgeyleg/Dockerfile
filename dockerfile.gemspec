@@ -1,5 +1,4 @@
-$LOAD_PATH.push File.expand_path('../lib', __FILE__)
-require 'dockerfile/version'
+require_relative 'lib/dockerfile/version'
 
 Gem::Specification.new do |spec|
   spec.name        = 'dockerfile'
