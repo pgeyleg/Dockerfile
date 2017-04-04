@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dockerfile (0.0.1)
+    dockerfile (0.1.0.beta1)
 
 GEM
   remote: https://rubygems.org/
